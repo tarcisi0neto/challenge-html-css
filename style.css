@@ -10,7 +10,6 @@
 
 }
 
-
 h1{
     font-weight: 700;
     font-size: 2em;
@@ -24,7 +23,6 @@ h2{
 
 .sec1{
     grid-area: bloco1;
-    
 }
 
 .sec2{
@@ -47,7 +45,18 @@ h2{
     grid-template-areas: "bloco1 bloco1" "bloco2 bloco3 ";
 }
 
+.grid-item1 h1 {
+    height: 70px;
+}
+.grid-item1 h2 { 
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    height: 40px;
+}
 
+.grid-item1 p{
+    color: hsl(218, 22%, 67%) ;
+}
 
 
 
