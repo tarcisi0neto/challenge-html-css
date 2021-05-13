@@ -21,37 +21,32 @@ h2{
     font-size: 1.3em;
 }
 
-.container{
-    max-width: 1440px;
-    margin: auto;
-    justify-content: center;
+body{
+    width: 100%;
+    height: 100%;
 }
 
-.grid{
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: 200px 1fr;
-    grid-template-areas: 'sec1 sec1''sec2 sec3';
-}
+
+
 
 .sec1{
-    grid-area: sec1;
-    padding: 50px;
+    grid-area: bloco1;
     background-color:darkgrey;
 }
 
 .sec2{
-    grid-area: sec2;
-    padding: 50px;
-    width: 225px;
+    grid-area: bloco2;
     background-color:hsl(179, 62%, 43%);
 
 }
 .sec3{
-    grid-area: sec3;
-    padding: 50px;
-    width: 200px;
+    grid-area: bloco3;
     background-color:blue;
 }
-
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "bloco1 bloco1" "bloco2 bloco3 ";
+}
 
