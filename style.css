@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
     font-family: 'Karla', sans-serif;
 
 }
@@ -21,37 +22,33 @@ h2{
     font-size: 1.3em;
 }
 
-.container{
-    max-width: 1440px;
-    margin: auto;
-    justify-content: center;
+.sec1{
+    grid-area: bloco1;
+    
+}
+
+.sec2{
+    grid-area: bloco2;
+    background-color:#2ab2af;
+
+}
+.sec3{
+    grid-area: bloco3 ;
+    background-color: #2ab2af;
 }
 
 .grid{
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: 200px 1fr;
-    grid-template-areas: 'sec1 sec1''sec2 sec3';
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "bloco1 bloco1" "bloco2 bloco3 ";
 }
 
-.sec1{
-    grid-area: sec1;
-    padding: 50px;
-    background-color:darkgrey;
-}
 
-.sec2{
-    grid-area: sec2;
-    padding: 50px;
-    width: 225px;
-    background-color:hsl(179, 62%, 43%);
 
-}
-.sec3{
-    grid-area: sec3;
-    padding: 50px;
-    width: 200px;
-    background-color:blue;
-}
+
 
 
