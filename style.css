@@ -27,12 +27,12 @@ h2{
 
 .sec2{
     grid-area: bloco2;
-    background-color:#2ab2af;
+    
 
 }
 .sec3{
     grid-area: bloco3 ;
-    background-color: #2ab2af;
+    
 }
 
 .grid{
@@ -55,7 +55,42 @@ h2{
 }
 
 .grid-item1 p{
-    color: hsl(218, 22%, 67%) ;
+    color: rgb(152, 166, 189) ;
+}
+.grid-item2{
+    background-color:#2ab2af;
+    text-align: justify;
+    
+} 
+.grid-item2 h2{
+    padding: 30px;
+    padding-bottom: 10px;
+    color: #e0ffff;
+    
+}
+.grid-item2 p{
+    padding-top: 0;
+    padding: 25px;
+    line-height: 0.5px;
+    color: #b0edee;
+}
+.grid-item2 .dolar{
+    font-size: 35px;
+    text-align: justify;
+    color:#e0ffff
+}
+
+
+
+.grid-item3{
+    background-color:#4abebd;
+
+} 
+.grid-item3 h2{
+    color: #eaffff;
+}
+.grid-item3 p{
+    color: #b0edee;
 }
 
 
