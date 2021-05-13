@@ -7,7 +7,7 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
-
+    line-height: 1.6;
 }
 
 h1{
@@ -17,7 +17,7 @@ h1{
 }
 
 h2{
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.3em;
 }
 
@@ -37,9 +37,9 @@ h2{
 
 .grid{
     display: grid;
-    max-width: 1000px;
+    max-width: 800px;
     height: 500px;
-    margin: 0 auto;
+    margin:500px auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "bloco1 bloco1" "bloco2 bloco3 ";
@@ -56,35 +56,39 @@ h2{
 
 .grid-item1 p{
     color: rgb(152, 166, 189) ;
+
 }
 .grid-item2{
     background-color:#2ab2af;
-    text-align: justify;
-    
+    padding: 25px;
+    padding-bottom: 5px;
+
 } 
 .grid-item2 h2{
-    padding: 30px;
-    padding-bottom: 10px;
     color: #e0ffff;
-    
+    margin-left: 25px;
+    padding-top: 10px;
 }
 .grid-item2 p{
-    padding-top: 0;
-    padding: 25px;
+    
+    padding:15px ;
     line-height: 0.5px;
     color: #b0edee;
+    font-weight: 700;
+    margin-left: 15px;
 }
 .grid-item2 .dolar{
     font-size: 35px;
-    text-align: justify;
-    color:#e0ffff
+    font-weight: 700;
+    color:#e0ffff;
+  
 }
 
 
 
 .grid-item3{
     background-color:#4abebd;
-
+    padding: 35px;
 } 
 .grid-item3 h2{
     color: #eaffff;
@@ -100,8 +104,8 @@ h2{
     color: white;
     padding: 15px;
     text-align: Center;
-    margin: 10px 50px;
+    margin: 10px 30px;
     border-radius: 6px;
-    width: 250px;
+    width: 300px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
 }
