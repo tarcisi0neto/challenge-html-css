@@ -93,6 +93,15 @@ h2{
     color: #b0edee;
 }
 
-
-
-
+.grid-item2 button{
+    background-color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    border: 120px;
+    color: white;
+    padding: 15px;
+    text-align: Center;
+    margin: 10px 50px;
+    border-radius: 6px;
+    width: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+}
