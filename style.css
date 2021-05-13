@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
     font-family: 'Karla', sans-serif;
 
 }
@@ -21,32 +22,33 @@ h2{
     font-size: 1.3em;
 }
 
-body{
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
 .sec1{
     grid-area: bloco1;
-    background-color:darkgrey;
+    
 }
 
 .sec2{
     grid-area: bloco2;
-    background-color:hsl(179, 62%, 43%);
+    background-color:#2ab2af;
 
 }
 .sec3{
-    grid-area: bloco3;
-    background-color:blue;
+    grid-area: bloco3 ;
+    background-color: #2ab2af;
 }
+
 .grid{
     display: grid;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "bloco1 bloco1" "bloco2 bloco3 ";
 }
+
+
+
+
+
 
